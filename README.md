@@ -1,12 +1,29 @@
-# React + Vite
+# 📝 Job Tracker App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A responsive job application tracking app built using **React.js**, **Tailwind CSS**, and **Vite**. This app helps users keep track of jobs they've applied to by storing entries in local storage with a clean, modern UI.
 
-Currently, two official plugins are available:
+## 🔗 Live Demo
+https://job-tracker-lite.netlify.app/
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 💻 Features
 
-## Expanding the ESLint configuration
+- Add and manage job application entries (company, title, status)
+- State stored using `localStorage` (data persists across sessions)
+- Built with reusable React components and hooks
+- Mobile-responsive design with Tailwind CSS
+- Deployed on Netlify
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 🛠 Tech Stack
+
+- **Frontend:** React.js, Tailwind CSS
+- **Tooling:** Vite, npm
+- **Deployment:** Netlify
+- **Version Control:** Git & GitHub
+
+## 📁 Getting Started (Optional for other devs)
+
+```bash
+git clone https://github.com/shalinidash01-dev/job-tracker.git
+cd job-tracker
+npm install
+npm run dev
